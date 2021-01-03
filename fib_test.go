@@ -31,6 +31,9 @@ func BenchmarkFib30(b *testing.B) { benchmarkFib(b, 30) }
 func BenchmarkFib35(b *testing.B) { benchmarkFib(b, 35) }
 func BenchmarkFib40(b *testing.B) { benchmarkFib(b, 40) }
 func BenchmarkFib41(b *testing.B) { benchmarkFib(b, 41) }
+func BenchmarkFib42(b *testing.B) { benchmarkFib(b, 42) }
+func BenchmarkFib43(b *testing.B) { benchmarkFib(b, 43) }
+func BenchmarkFib44(b *testing.B) { benchmarkFib(b, 44) }
 
 // Test FibIter for various values of n
 func benchmarkFibIter(b *testing.B, n int) {
@@ -59,6 +62,9 @@ func BenchmarkFibIter30(b *testing.B) { benchmarkFibIter(b, 30) }
 func BenchmarkFibIter35(b *testing.B) { benchmarkFibIter(b, 35) }
 func BenchmarkFibIter40(b *testing.B) { benchmarkFibIter(b, 40) }
 func BenchmarkFibIter41(b *testing.B) { benchmarkFibIter(b, 41) }
+func BenchmarkFibIter42(b *testing.B) { benchmarkFibIter(b, 42) }
+func BenchmarkFibIter43(b *testing.B) { benchmarkFibIter(b, 43) }
+func BenchmarkFibIter44(b *testing.B) { benchmarkFibIter(b, 44) }
 
 // Test FibOpti for various values of n
 func benchmarkFibOpti(b *testing.B, n int) {
@@ -87,3 +93,6 @@ func BenchmarkFibOpti30(b *testing.B) { benchmarkFibOpti(b, 30) }
 func BenchmarkFibOpti35(b *testing.B) { benchmarkFibOpti(b, 35) }
 func BenchmarkFibOpti40(b *testing.B) { benchmarkFibOpti(b, 40) }
 func BenchmarkFibOpti41(b *testing.B) { benchmarkFibOpti(b, 41) }
+func BenchmarkFibOpti42(b *testing.B) { benchmarkFibOpti(b, 42) }
+func BenchmarkFibOpti43(b *testing.B) { benchmarkFibOpti(b, 43) }
+func BenchmarkFibOpti44(b *testing.B) { benchmarkFibOpti(b, 44) }

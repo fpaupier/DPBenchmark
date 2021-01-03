@@ -18,7 +18,7 @@ go test -bench=. -benchmem > benchmark/raw.txt
 
 Results on `goos: darwin` and `goarch: amd64` available in `./benchmark/raw.txt`.
 
-### Useful link
+### Useful links
 
 - [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go), from Dave Cheney
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/), chapter 8, Dynamic Programming

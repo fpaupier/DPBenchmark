@@ -22,3 +22,6 @@ Results on `goos: darwin` and `goarch: amd64` available in `./benchmark/raw.txt`
 
 - [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go), from Dave Cheney
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/), chapter 8, Dynamic Programming
+
+
+Benchmark analysis in [my article](https://fpaupier.dev/blog/fibonacci-benchmark/) (french)
